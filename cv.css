@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#eee;
+    font-family: 'Open Sans', sans-serif; 
+}
+.container{
+    background: #e4f9f9;
+    max-width: 80%;
+    
+    margin: 0 auto;
+    overflow: hidden;
+   
+}
+.container{
+    padding: 20px
+}
+.profile-img{
+    width: 120px;
+    height: 90px;
+    border: 3px solid red;
+    border-radius: 50%;
+    background-position: top -50px  ;
+    float: left;
+}
+.bio{
+    float: left;
+    padding: 10px;
+}
+h1, h3, h2, h4, h5, h6{
+    text-transform: capitalize;
+    text-shadow: -2px -2px 3px pink ;
+    color:green;
+    line-height: 2
+    
+        
+}
+.contract{
+    float: right;
+    padding: 20px
+}
+.contract a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.contract a:hover{
+    text-decoration: underline;
+    color: red
+}
+.clear{
+    clear: both;
+}
+hr{
+    border:  solid yellow 3px;
+    background: black;
+    margin: 20px auto;
+}
+
+
+
+.left{
+    width: 30%;
+    float: left;
+
+}
+.right{
+    width: 70%;
+    float: left
+}
+.buttom{
+    background: black;
+    text-align: center;
+    overflow: hidden;
+}
+.buttom a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+}
+.buttom p{
+    color: white;
+    text-transform: capitalize;
+    
+    margin-top: 20px;
+}
+.buttom a:hover{
+    background: red;
+    text-decoration: underline;
+}
